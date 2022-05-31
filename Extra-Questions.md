@@ -35,6 +35,8 @@ WHERE name LIKE '%y'
 	AND LENGTH(name) = 5
   ```
 
+![image](https://user-images.githubusercontent.com/80232250/171130978-94b2a81c-01f0-4ebe-a764-5c95f68c5737.png)
+
 - Write a SQL query to fetch project-wise count of employees sorted by project's count in descending order
 ```
 SELECT project, COUNT(EmpId)
