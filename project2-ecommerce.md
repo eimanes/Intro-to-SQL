@@ -1,14 +1,15 @@
-- # Project 2: E-Commerce Database  
-- # ER diagram  
+# Project 2: E-Commerce Database
+by: Eiman Salleh (SE May 2022)
+# ER diagram  
 	- Firstly, the ER diagram was created via https://online.visual-paradigm.com  
 	- ![erd](https://user-images.githubusercontent.com/80232250/172428153-b4f423ba-c4c2-41fc-a933-ebac54708e1a.png)
 
 ---
-- # CREATE TABLE  
+# CREATE TABLE  
 	- Then, after completed the ER-Diagram, we could picture it into SQL.  
 	- Open SQL, and start with creating tables.  
-	- ## `PRIMARY KEY`  
-		- ### `products`  
+## `PRIMARY KEY`  
+- ### `products`  
 		  ```
 		  			  CREATE TABLE product
 		  			  (
@@ -26,7 +27,7 @@
 		  			  )
 		  			  
 		  ```
-		- ### `options`  
+- ### `options`  
 		  ```
 		  			  CREATE TABLE options
 		  			  (
@@ -36,7 +37,7 @@
 		  			  )
 		  			  
 		  ```
-		- ### `categories`  
+- ### `categories`  
 		  ```
 		  			  CREATE TABLE categories
 		  			  (
@@ -49,7 +50,7 @@
 		  			  )
 		  			  
 		  ```
-		- ### `customers`  
+- ### `customers`  
 		  ```
 		  			  CREATE TABLE categories
 		  			  (
@@ -128,7 +129,7 @@
 		  			  )
 		  ```
 -  
-- # Database Structure  
+# Database Structure  
 	- After completed creating the tables, we could see the data structures.  
 	-  ![datastructure](https://user-images.githubusercontent.com/80232250/172428228-073423a8-9e4b-47a1-a8b2-4e5ee4e96801.png)
 
