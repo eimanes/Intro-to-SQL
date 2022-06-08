@@ -1,6 +1,7 @@
 # SQL: Project 1
 #####  by Eiman Salleh (SE May)
 ------------------------------
+# Step 1: Understanding the business context
 
 ## Contents of the dataset [passengers.db]
   - The data shows the passengers aboard the Titanic (once was the largest ship in the world), and who survived from the sinking of the ship.
@@ -8,14 +9,44 @@
   - There were few lifeboats in the Titanic ship to account for all of its passengers, and many of them did not survive.
   - This issue had led to new laws and regulations regarding the number of lifeboats required in each ship.
   - By evaluating this data, we may learn how each passenger's personal characteristics influenced their chances of survival, as well as if any particular grouping of passengers had priority for lifeboats.
+----
+
+# Step 2: Understanding the Technical Context
+
+## How are these data collected?
+  - The data were collected through manual inspection from the tragedy and recorded.
+## Where are the sources of these data?
+  - The data is stored in Encyclopedia Titanica website
+## What are the systems that touch or use/modify these data?
+  - Machine learning systems or manual data change may modify these data.
+## What are some of the error sources of this data?
+  - There is an error on the age dataset where the oldest person age (80) is not the age recorded during the disaster. It is the age of post survival of the person’s death.
+## Is the data complete? Would there be missing pieces of data?
+  - The data is completed. However, there is constantly updated information on the website. 
+---
+# Step 3: Understanding the Tables and Fields
 
 ## Displaying the table
   ```
   SELECT * FROM passengers
   ```
   ![image](https://user-images.githubusercontent.com/80232250/170904695-fd30583f-a9d5-43b0-a783-53f46626b72f.png)
+
+## How many tables in the data structure?
+  - One table
+
+## What are the tables? What are these tables representing?
+  - The table is the passengers table. The table represents the information such as name, survival, age, sex, tickets, and economic status.
+
+## Is the data messy? And how?
+  - The data is messy but it is well sorted according to their category.
+
+## Should I clean the data first? Or ignore
+  - The data is encoruaged to be cleaned first. However, it isn't that horrible messy, so it is okay to ignore.
+
+-----
   
-## Exploratory analysis
+# Step 4: Exploratory analysis
 
 ### 1. What is the total number of individuals on the ship? `COUNT(column)`
 ```
